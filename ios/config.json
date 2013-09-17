@@ -1,0 +1,21 @@
+{
+    "resources": [
+    ],
+    "code": [
+        "TapjoyAds.h",
+        "TapjoyAds.mm"
+    ],
+    "userDefined": [
+        "tapjoyAppID",
+        "tapjoySecretKey",
+        "tapjoyCurrencyID"
+    ],
+    "plist": {
+        "TapjoyAppID": "$(tapjoyAppID)",
+        "TapjoySecretKey": "$(tapjoySecretKey)",
+        "TapjoyCurrencyID": "$(tapjoyCurrencyID)",
+        "CFBundleURLTypes.CFBundleURLSchemes": "tj$(tapjoyAppID)"
+    },
+    "frameworks": [
+    ]
+}
