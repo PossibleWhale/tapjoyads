@@ -17,5 +17,6 @@
         "CFBundleURLTypes.CFBundleURLSchemes": "tj$(tapjoyAppID)"
     },
     "frameworks": [
+        "Tapjoy.framework"
     ]
 }
